@@ -84,7 +84,7 @@ interactions:
       tag: giggling
       message: >-
         $user: $gif
-      probability: 0.4
+      probability: 0.1
 
     - pattern:
         regex: (\W|^)tired(\W|$)
@@ -114,8 +114,3 @@ interactions:
       event: say
       message: would you like a hug, $user?
       probability: 0.2
-
-    - pattern:
-        regex: (\W|^)hot(\W|$)
-      event: say
-      message: you sure are.
